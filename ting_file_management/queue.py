@@ -21,5 +21,4 @@ class Queue:
         if index < 0 or index > (self.__len__() - 1):
             raise IndexError
         else:
-            print(self.queue)
             return self.queue[index]
